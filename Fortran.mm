@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Fortran (2013)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1696706147837" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="0.826">
+<node TEXT="Fortran (2013)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1696706147837" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8" zoom="1.074">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm"/>
 
 <map_styles>
@@ -80,7 +80,7 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="01 Fortran语言简介" POSITION="bottom_or_right" ID="ID_1073701625" CREATED="1696705849891" MODIFIED="1696705862379">
+<node TEXT="01 Fortran语言简介" FOLDED="true" POSITION="bottom_or_right" ID="ID_1073701625" CREATED="1696705849891" MODIFIED="1696705862379">
 <node TEXT="FORTRAN = FORmula TRANslation 公式翻译" ID="ID_1882643281" CREATED="1696706051885" MODIFIED="1696706075571"/>
 <node TEXT="Fortran的发展历史" ID="ID_890184238" CREATED="1696706090586" MODIFIED="1696706097469">
 <node TEXT="Fortran I: 1954" ID="ID_1395585157" CREATED="1696706175090" MODIFIED="1696706190113"/>
@@ -105,7 +105,7 @@
 <node TEXT="FORTRAN运算速度要快于C++语言" ID="ID_1697164074" CREATED="1696706689721" MODIFIED="1696706692553"/>
 </node>
 </node>
-<node TEXT="02 Fortran编译器的安装与使用" POSITION="bottom_or_right" ID="ID_719246251" CREATED="1696705862558" MODIFIED="1696705872006">
+<node TEXT="02 Fortran编译器的安装与使用" FOLDED="true" POSITION="bottom_or_right" ID="ID_719246251" CREATED="1696705862558" MODIFIED="1696705872006">
 <node TEXT="编译器简介" ID="ID_206854631" CREATED="1696706700564" MODIFIED="1696706736718">
 <node TEXT="Microsoft FORTRAN Power Station 4.0" ID="ID_1539217180" CREATED="1696706746504" MODIFIED="1696706899517" LINK="https://winworldpc.com/product/fortran-powerstation/4x"/>
 <node TEXT="Microsoft+DEC Digital Visual Fortran" ID="ID_140288231" CREATED="1696706817298" MODIFIED="1696707049310">
@@ -119,10 +119,28 @@
 <node TEXT="Fortran开发环境的安装" ID="ID_388438732" CREATED="1696707105122" MODIFIED="1696707117554">
 <node TEXT="Visual Studio Code" ID="ID_1714031637" CREATED="1696707121555" MODIFIED="1696707129450"/>
 <node TEXT="Related VS Code extensions: Modern Fortran" ID="ID_1642502098" CREATED="1696707152767" MODIFIED="1696707189736"/>
-<node TEXT="Intel VFC" ID="ID_811001619" CREATED="1696707129964" MODIFIED="1696707134035"/>
+<node TEXT="Intel VFC" ID="ID_811001619" CREATED="1696707129964" MODIFIED="1696707300393" LINK="https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html#gs.6nof6u"/>
 </node>
 </node>
-<node TEXT="03 程序设计方法及程序算法" POSITION="bottom_or_right" ID="ID_1891482194" CREATED="1696705872188" MODIFIED="1696705887080"/>
+<node TEXT="03 程序设计方法及程序算法" POSITION="bottom_or_right" ID="ID_1891482194" CREATED="1696705872188" MODIFIED="1696705887080">
+<node TEXT="程序设计方法简介" ID="ID_418449905" CREATED="1696722353346" MODIFIED="1696722371969">
+<node TEXT="程序=数据结构+算法" ID="ID_1328376343" CREATED="1696722378452" MODIFIED="1696722385221"/>
+<node TEXT="程序=算法+数据结构+开发工具+程序设计方法" ID="ID_545653407" CREATED="1696722391038" MODIFIED="1696722405309"/>
+<node TEXT="1. 结构化程序设计方法：E.W.Dijkstra, 1969" ID="ID_1029719503" CREATED="1696722413628" MODIFIED="1696722437271">
+<node TEXT="结构化的数据" ID="ID_1664173588" CREATED="1696722520302" MODIFIED="1696722528903"/>
+<node TEXT="结构化的过程" ID="ID_645407430" CREATED="1696722529058" MODIFIED="1696722535779"/>
+<node TEXT="调用过程处理相应的数据" ID="ID_1393383370" CREATED="1696722536262" MODIFIED="1696722550183"/>
+</node>
+<node TEXT="2. 面向对象程序设计方法" ID="ID_346134785" CREATED="1696722441603" MODIFIED="1696722453536">
+<node TEXT="类" ID="ID_1050445766" CREATED="1696722481476" MODIFIED="1696722483380"/>
+<node TEXT="对象（类实例）" ID="ID_1908252381" CREATED="1696722483611" MODIFIED="1696722495220"/>
+<node TEXT="对象之间的动态联系" ID="ID_1756788011" CREATED="1696722496029" MODIFIED="1696722513071"/>
+</node>
+</node>
+<node TEXT="算法的概念及特性" ID="ID_788496616" CREATED="1696722358163" MODIFIED="1696722570973">
+<node TEXT="算法的概念：Algorithm，为一个计算的具体步骤" ID="ID_1941354489" CREATED="1696722579308" MODIFIED="1696722600031"/>
+</node>
+</node>
 <node TEXT="04 二进制及Fortran程序设计基础" POSITION="bottom_or_right" ID="ID_1712327194" CREATED="1696705889813" MODIFIED="1696705901072"/>
 <node TEXT="05 输入输出及声明" POSITION="bottom_or_right" ID="ID_979677009" CREATED="1696705901475" MODIFIED="1696705911876"/>
 <node TEXT="06 选择结构程序设计" POSITION="bottom_or_right" ID="ID_1507873573" CREATED="1696705912059" MODIFIED="1696705923548"/>
