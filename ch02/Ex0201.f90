@@ -1,0 +1,4 @@
+PROGRAM Ex0201
+IMPLICIT NONE
+    WRITE(*,*) "Hello"
+END    
